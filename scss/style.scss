@@ -2,3 +2,11 @@
 @import 'mixins';
 @import 'normalize';
 @import 'devices/mobile';
+
+// 1.variables 
+// 2.mixins 
+// 3.normalize 
+// 4.devices/some branches 
+// 1と2は、それぞれ変数を定義するファイル、その変数を使って繰り返し使うスタイルを定義するファイルである。
+// インポートした順番でファイルが読み込まれるので、変数を定義するファイルを先にインポートしておく必要なある。
+// そうでないと、javascriptのdomが取得できないものと似たトラブルが起こる。
